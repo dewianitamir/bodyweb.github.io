@@ -67,3 +67,20 @@ body {
     margin-top: 20px;
     text-align: justify;
 }
+/* Screen for mobile */
+@media only screen and (max-width: 670px) {
+    .heading {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+    .heading span{
+        font-size: 15px;
+    }
+    .profiles {
+        margin: 20px 0
+    }
+    .profile p {
+        margin: 20px 10px 80px 10px;
+    }
+}
